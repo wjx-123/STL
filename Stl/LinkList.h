@@ -19,7 +19,14 @@ public:
 	~SingleList();
 
 public:
-	void add(int);//头插法
-	void remove(int);
-	SingleListNode* find(int);
+
+	void add(int);//插入节点头插法
+
+	void remove(int);//删除节点
+
+	SingleListNode* find(int);//找到某个元素
+
+	int getLength();//返回链表长度
+
+	bool ifLinkListEmpty();//判断是否是空链表
 };
