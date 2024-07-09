@@ -24,12 +24,18 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="doubleLinkList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="wjx_vector.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LinkList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="doubleLinkList.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
